@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background: #EFEFEF;
+}
+
+body::before{
+    content: "";
+    background: #535971;
+    width: 100%;
+    height: 43.6rem;
+    position: absolute;
+    z-index: -1;
+}
+
+header{
+    width: 75rem;
+    margin: 0 auto 6rem; 
+    padding-top: 14rem; 
+}
+
+header h1{
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 4.8rem;
+    line-height: normal;
+    margin-bottom: 1.8rem;
+}
+
+header p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2rem;
+    line-height: normal;
+}
+
+form{
+    padding: 6.4rem;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    width: 75rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+form fieldset{
+    border: none;
+}
+
+fieldset legend{
+    color: #535971;
+    font-family: Staatliches;
+    font-size: 24px;
+    line-height: 34px;
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 1.6rem;
+    margin-bottom: 3.5rem;
+}
+
+.input_wrapper{
+    width: 100%;
+}
+
+.input_wrapper label{
+    color: #4E4958;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    line-height: 2.4rem; 
+}
+
+.input_wrapper label span{
+    color: #C1BCCC;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    line-height: 2.0rem; 
+}
+
+.input_wrapper label span:hover{
+    color: #868588;
+}
+
+.input_wrapper input{
+    border-radius: 8px;
+    border: 1px solid var(--Back-Lines-in-white, #E6E6F0);
+    background: var(--Shapes-02, #FAFAFC);
+    padding: 1.5rem 2.4rem;
+    width: 100%;
+    margin: .8rem 0 2rem;
+
+    color: var(--Texts-Inputs, #79797b);
+    font-family: Poppins;
+    font-size: 1.6rem;
+    line-height: 2.6rem; 
+}
+
+.name_information{
+    display: flex;
+    gap: 2.2rem;
+}
+
+
+.first_mentorship h2, .second_mentorship h2{
+    color: #535971;
+    font-family: Staatliches;
+    font-size: 2.0rem;
+    line-height: 3.4rem;
+    margin-bottom: 1.1rem;
+}
+
+.date_information{
+    display: flex;
+}
+
+.date_information div:nth-child(2){
+    margin: 0 1rem 0 3.2rem;
+}
+
+.form_footer{
+    border-radius: 0px 0px 20px 20px;
+    background: #535971;
+    height: 16rem;
+    width: 75rem;
+    margin: 0 auto 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7.1rem;
+}
+
+.form_footer input{
+    border-radius: 20px;
+    background: #FF5374;
+    border: none;
+
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 2rem;
+    line-height: 2.6rem; 
+    padding: 1.5rem 4rem;
+}
+
+.form_footer input:hover{
+    cursor: pointer;
+    background: #fe365e;
+}
