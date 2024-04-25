@@ -25,8 +25,11 @@ This project consists of a web-based mentoring scheduling form designed to facil
 
 A brief demonstration of the project interface.
 
+![image](https://github.com/ThiagoMoraes97/form_stage03_explorer_rocketseat/assets/111385010/1fdf009f-f34d-4bee-8a37-32c2f66206f4)
 
-
+<div align = "center"> 
+    <img scr = "https://github.com/ThiagoMoraes97/form_stage03_explorer_rocketseat/assets/111385010/1fdf009f-f34d-4bee-8a37-32c2f66206f4" witdh = "450px" />
+</div>
 
 ## Acknowledgments
 
