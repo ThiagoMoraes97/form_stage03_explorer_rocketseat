@@ -1,39 +1,58 @@
 
-# Mentoring Scheduling Form
+# Formulário de Agendamento de Mentoria
 
-This project consists of a web-based mentoring scheduling form designed to facilitate the process of booking mentoring sessions. Developed using HTML and CSS, the form provides a user-friendly interface for individuals to input their personal information, select their mentor, and specify their available times for mentoring sessions.
+## 📝 Descrição
 
-## Features
+Este projeto consiste em um formulário web para agendamento de sessões de mentoria. Desenvolvido com HTML e CSS como parte do Stage 3 do curso Explorer da Rocketseat, o formulário oferece uma interface amigável para que os usuários possam inserir suas informações pessoais, selecionar seu mentor e especificar os horários disponíveis para as sessões de mentoria.
 
-- **Personal Information Section**: Collects user's personal details including name, last name, email, and password.
+## ✨ Funcionalidades
 
-- **Mentor Information Section**: Allows users to specify the name of their mentor.
+O formulário está dividido em seções que permitem ao usuário:
 
-- **Availability Section**: Enables users to input their preferred dates and times for mentoring sessions, with the ability to schedule two separate sessions.
+- Inserir informações pessoais (nome, sobrenome, e-mail e senha)
+- Informar o nome do mentor desejado
+- Agendar até duas sessões de mentoria diferentes, especificando:
+  - Data da mentoria
+  - Horário de início
+  - Horário de término
+- Enviar os dados através do botão "Salvar"
 
+## 🎨 Interface
 
-## Technologies Used
+O projeto apresenta uma interface moderna com:
 
-- **HTML**: Used for structuring the content of the web page.
+- Cabeçalho em destaque com fundo colorido
+- Campos de formulário bem organizados e agrupados por finalidade
+- Design responsivo e intuitivo
+- Tipografia personalizada utilizando as fontes "Poppins" e "Staatliches" do Google Fonts
 
-- **CSS**: Used for styling the form and creating a visually appealing interface.
+## 🚀 Como visualizar o projeto
 
-- **Google Fonts**: Imported for enhanced typography, utilizing the "Poppins" and "Staatliches" fonts.
+Para visualizar o projeto localmente, siga estas etapas:
 
+1. Clone ou faça o download deste repositório para seu computador
+2. Navegue até a pasta do projeto
+3. Abra o arquivo `index.html` em qualquer navegador web moderno
 
-## Showcase
+## 🛠️ Tecnologias Utilizadas
 
-A brief demonstration of the project interface.
+- **HTML5**: Utilizado para estruturar o conteúdo da página web
+- **CSS3**: Utilizado para estilizar o formulário e criar uma interface visualmente atraente
+- **Google Fonts**: Importado para melhorar a tipografia, utilizando as fontes "Poppins" e "Staatliches"
 
-![image](https://github.com/ThiagoMoraes97/form_stage03_explorer_rocketseat/assets/111385010/1fdf009f-f34d-4bee-8a37-32c2f66206f4)
+## 📚 Aprendizados
 
-<div align = "center"> 
-    <img scr = "https://github.com/ThiagoMoraes97/form_stage03_explorer_rocketseat/assets/111385010/1fdf009f-f34d-4bee-8a37-32c2f66206f4" witdh = "450px" />
-</div>
+Este projeto explora conceitos importantes de desenvolvimento web, como:
 
-## Acknowledgments
+- Estruturação semântica de formulários HTML
+- Agrupamento de campos com fieldset e legend
+- Estilização avançada com CSS
+- Validação básica de formulários
+- Design responsivo
 
-This project was developed as part of the Stage 03 of the Explorer course by Rocketseat.
+## 🙏 Agradecimentos
+
+Este projeto foi desenvolvido como parte do Stage 3 do curso Explorer da Rocketseat.
 
 
 
