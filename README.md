@@ -48,7 +48,6 @@ Este projeto explora conceitos importantes de desenvolvimento web, como:
 - Agrupamento de campos com fieldset e legend
 - Estilização avançada com CSS
 - Validação básica de formulários
-- Design responsivo
 
 ## 🙏 Agradecimentos
 
